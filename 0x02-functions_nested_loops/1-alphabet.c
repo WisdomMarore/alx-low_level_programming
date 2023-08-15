@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /*
  * The following function prints an  alphabet
@@ -11,12 +12,8 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
-		putchar('\n');
+		 putchar(c);
+	         putchar('\n');
 	}
 }
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+
