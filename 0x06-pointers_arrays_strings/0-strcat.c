@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strcat - joins two strings together
  * @dest:first string
