@@ -2,24 +2,32 @@
 
 /**
  * _strncat - joins two strings together
- *@dest: first string
- *@src: second string
- *@n: number of bytes
+ * @dest: first string
+ * @src: second string
+ * @n: number of bytes
  *
  * Return: Always 0 (Success)
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char *p = dest;
+	int i;
+	int j;
+	
+	i = 0;
 
-	while (*p != '\0')
+	while (dest[i] != '\0')
 	{
-		p++;
+		i++;
 	}
-	while (n-- > 0 && *src != '\0')
+	
+	j = 0;
+
+	while (j < n && src[j] != '\0')
 	{
-		*p++ = *src;
+		dest[i] = src[j];
+		i++;
+		j++;
 	}
-	*p = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
