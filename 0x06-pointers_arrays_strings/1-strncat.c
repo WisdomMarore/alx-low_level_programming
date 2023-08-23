@@ -2,9 +2,9 @@
 
 /**
  * _strncat - joins two strings together
- *@dest:first string
- *@src:second string
- *@n:number of bytes
+ *@dest: first string
+ *@src: second string
+ *@n: number of bytes
  *
  * Return: Always 0 (Success)
  */
