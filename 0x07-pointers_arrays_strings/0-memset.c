@@ -15,8 +15,9 @@
 	for (i = 0; i < n; i++)
 	{
 		s[i] = b;
-	return (s);
+		n--;
 	
 	}
-	return (0);
+	return (s);
+	
 }
