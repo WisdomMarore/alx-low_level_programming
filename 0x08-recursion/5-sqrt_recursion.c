@@ -2,8 +2,7 @@
 
 /**
  * _sqrt_recursion - finds the square root of a number
- * _sqrt_recursion_helper - finds the square root
- * @i: a number 
+ * _sqrt_recursion_helper - finds the square root 
  * @n: the number
  *
  * Return: Always 0 (Success)
